@@ -53,7 +53,7 @@ class ImagickWritingStrategy implements WritingStrategy
         $margin = $writer->getMargin();
         $angle = $writer->getAngle();
 
-        $im->newPseudoImage($width, $height, "pango:" . $text );
+        $im->newPseudoImage($width, $height, "caption:" . $text );
         $clut = new \Imagick();
         $clut->newImage(2, 2, new \ImagickPixel($color->toString()));
         $im->clutImage($clut);

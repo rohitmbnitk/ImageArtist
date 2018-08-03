@@ -19,13 +19,6 @@ PHP 5.0 >
 **Optional** ( Consider installing imagick along with pango for complex unicode Texts )
 - [Imageick](http://php.net/manual/en/book.imagick.php) with [Pango](http://www.pango.org/)
 
-## Install
-
-The package can be installed via composer:
-``` bash
-$ composer require treinetic/imageartist
-```
-
 ## Usage ( Let's Dive In )
 
 ### Very Basics
